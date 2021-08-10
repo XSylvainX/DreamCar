@@ -20,4 +20,4 @@ and the back part
 
 [Projet link](lien projet)
 
-it * created * on ** August 2021.
+> it created on August 2021.
