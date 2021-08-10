@@ -1,0 +1,14 @@
+.foot-ct{
+   position: fixed;
+   bottom: 0;
+   background-color: rgb(51, 98, 226);
+   width: 100%;
+   height: 80px;
+  
+}
+
+p{
+    text-align: center;
+
+}
+

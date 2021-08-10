@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+
+
+.title{
+    font-family: 'Exo';
+    font-size:3em;
+    margin: 0;
+    transform: skew(-15deg);
+    letter-spacing: 0.03em;
+
+
+&::after{
+ background:
+ radial-gradient(white 3%, rgba(white,0.3) 15% rgba(white,0.05) 60%,transparent 80%),
+ radial-gradient(rgba(white, 0.2) 50%, transparent 60%) 50% 50% / 5% 100%,
+ radial-gradient(rgba(white, 0.2) 50%, transparent 60%) 50% 50% / 70% 5%;
+ background-repeat: no-repeat;
+}
+
+span:first-child {
+    text-shadow: 0 0 0.1em #8ba2d0, 0 0 0.2em black,  0 0 5em #165ff3;
+    -webkit-text-stroke: 0.06em rgba(black, 0.5);
+  }
+
+  span:last-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(#032d50 25%, #00a1ef 35%, white 50%, #20125f 50%, #e3e713 55%, #fa4028 75%);
+    -webkit-text-stroke: 0.01em #94a0b9;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+}
+
+

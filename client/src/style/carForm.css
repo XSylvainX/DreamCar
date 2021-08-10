@@ -1,0 +1,64 @@
+
+.container-sm{
+    height: 180vh;
+}
+
+h3{
+    text-align: center;
+    color: rgb(248, 249, 250);
+}
+
+
+
+input{
+    width: 300px;
+    height: 50px;
+}
+
+.input-update{
+    width: 200px;
+    height: 40px;
+    margin-right:2px;
+}
+
+label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.act{
+    margin-top: 15px;
+}
+
+.act:hover{
+   cursor: pointer;
+   color: blue; 
+}
+
+.primary{
+     background-color: blue;
+}
+
+th{  
+ color: aliceblue;
+}
+
+td{
+    color: aliceblue;
+    padding: 2px;
+}
+
+@media screen and (max-width: 320px){
+    .container-sm{
+      height:480vh
+    }
+    .subcontent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        overflow-y: scroll;
+        overflow-x: scroll
+    }
+  };
+

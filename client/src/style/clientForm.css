@@ -1,0 +1,30 @@
+.client{
+    width: 400px;
+    /* margin: 0 auto; */
+}
+
+.aboutClient{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.information input{
+    width: 300px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.information label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
