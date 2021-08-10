@@ -2,19 +2,19 @@
 ## Projet 
 Little Web app build with :
 
+for the front part 
 
-- React 
+
+- ReactJS 
 - HTML
 - CSS and SCSS 
 
-for the front part 
 
-and 
+and the back part
 
-- Node JS
+- NodeJS
 - Express 
-
-for the back part 
+ 
 
 ### it exploit MySQL database 
 
