@@ -3,6 +3,8 @@ const express = require("express");
 const app = express();
 const { db } = require("./conf")
 
+const PORT = 3001
+
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
@@ -129,6 +131,6 @@ app.delete("/deleteVehicule/:id", (req, res) => {
     });
 })
 
-app.listen(3001, () => {
-    console.log("server running on port 3001");
-})
+app.listen(process.env.PORT || PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
